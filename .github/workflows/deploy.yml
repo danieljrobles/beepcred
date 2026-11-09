@@ -14,6 +14,8 @@ concurrency:
 
 jobs:
   deploy:
+    # The danieljrobles mirror is a backup and has no Lightsail secrets.
+    if: github.repository == 'drobles-bcg/beepcred'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
