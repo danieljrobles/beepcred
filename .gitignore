@@ -10,3 +10,6 @@ client/dist/
 .DS_Store
 *.log
 .cursor/
+
+# Local plate import plan. Contains plate numbers and photo paths.
+server/scripts/import-plan.json
